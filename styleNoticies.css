@@ -1,0 +1,79 @@
+/* Reset de márgenes y rellenos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para el header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2c3e50; /* Fondo oscuro */
+}
+
+header img {
+    width: 10%;
+}
+
+header h1 {
+    color: white; /* Texto de WILYUN en blanco */
+    font-size: 72px; /* Tamaño más grande */
+    margin-left: 20px;
+}
+
+/* Estilo para el menú */
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white; /* Color blanco para los enlaces */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+header ul a:hover {
+    color: #e74c3c; /* Color rojo al pasar el ratón */
+}
+
+/* Estilo para el contenido principal */
+main {
+    padding: 20px;
+}
+
+main h1 {
+    font-size: 24px;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+main li {
+    font-size: 18px;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
